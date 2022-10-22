@@ -4,12 +4,14 @@ import {RiWhatsappFill} from 'react-icons/ri'
 import Header from "./Header"
 import { SocialIcon } from "react-social-icons"
 import { motion } from "framer-motion"
+import { BsFillArrowUpCircleFill } from "react-icons/bs"
 
 type Props = {}
 
 const Contact = (props: Props) => {
   return (
-    <motion.div
+    <div>
+      <motion.div
     initial={{opacity:0, scale:0.9}}
     whileInView={{opacity:1, scale:1}}
     transition={{duration:1.2}}
@@ -33,6 +35,15 @@ const Contact = (props: Props) => {
       </div>
 
     </motion.div>
+      
+    <motion.a 
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    transition={{duration:1.5}}
+    href="#hero" className="flex sticky bottom-5 justify-center cursor-pointer hover:scale-125 transition-all">
+    <BsFillArrowUpCircleFill size={"30px"} color={"Gray"}/>
+    </motion.a>
+    </div>
   )
 }
 

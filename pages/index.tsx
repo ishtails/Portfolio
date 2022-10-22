@@ -35,7 +35,6 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-center">
           <Contact />
       </section>
-
     </div>
   )
 }
