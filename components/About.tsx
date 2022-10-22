@@ -16,7 +16,7 @@ export default function About({}: Props) {
       whileInView={{x:0, opacity:1}}
       transition={{duration:1.2}}
       viewport={{once:true}}
-      className="relative top-28 sm:top-16 md:top-0 flex-shrink-0 rounded-full w-36 sm:w-44 object-cover md:rounded-lg md:w-72 xl:w-[400px]" src={'./dp2.jpg'}/>
+      className="relative top-24 sm:top-16 md:top-0 flex-shrink-0 rounded-full w-36 sm:w-44 object-cover md:rounded-lg md:w-72 xl:w-[400px]" src={'./dp2.jpg'}/>
 
       <motion.div
       initial={{opacity:0, scale:0.9}}
@@ -35,7 +35,7 @@ export default function About({}: Props) {
     initial={{opacity:0}}
     whileInView={{opacity:1}}
     transition={{duration:1.5}}
-    href="#hero" className="flex sticky bottom-10 sm:bottom-5  justify-center cursor-pointer hover:scale-125 transition-all">
+    href="#hero" className="flex sticky bottom-15 sm:bottom-5  justify-center cursor-pointer hover:scale-125 transition-all">
     <BsFillArrowUpCircleFill size={"30px"} color={"Gray"}/>
     </motion.a>
 
