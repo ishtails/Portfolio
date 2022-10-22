@@ -25,7 +25,7 @@ export default function Experience({}: Props) {
     initial={{opacity:0}}
     whileInView={{opacity:1}}
     transition={{duration:1.5}}
-    href="#hero" className="flex sticky bottom-15 sm:bottom-5 justify-center cursor-pointer hover:scale-125 transition-all">
+    href="#hero" className="flex sticky bottom-16 sm:bottom-5 justify-center cursor-pointer hover:scale-125 transition-all">
     <BsFillArrowUpCircleFill size={"30px"} color={"Gray"}/>
     </motion.a>
 
