@@ -23,9 +23,9 @@ export default function About({}: Props) {
       transition={{duration:1.2}}
       viewport={{once:true}}
       className="relative space-y-8 px-0 md:px-10">
-        <h4 className="tracking-wide text-2xl sm:text-4xl font-bold">Here's a <span className="underline decoration-[#ffae00] hover:underline-offset-8 cursor-pointer">little</span> background</h4>
+        <h4 className="tracking-wide text-2xl sm:text-4xl font-bold">Here&apos;s a <span className="underline decoration-[#ffae00] hover:underline-offset-8 cursor-pointer">little</span> background</h4>
 
-        <p className="text-md sm:text-lg font-extralight lg:text-xl tracking-wide text-left">I am passionate about new and emerging technologies, trying to dive into all the exciting possibilities. Currently I'm exploring the world of Web Development but I'm also really fascinated by Blockchain, Machine Learning & Artificial Intelligence.I am also proficient in Graphic Designing and have been designing for quite a while now.<br/><br/> Apart from that, I am a Music Producer, Composer & Mixing Engineer open to work / collaborate on projects. You may check out my music on Youtube / Instagram / Spotify @ishtails. 💛
+        <p className="text-md sm:text-lg font-extralight lg:text-xl tracking-wide text-left">I am passionate about new and emerging technologies, trying to dive into all the exciting possibilities. Currently I&apos;m exploring the world of Web Development but I&apos;m also really fascinated by Blockchain, Machine Learning & Artificial Intelligence.I am also proficient in Graphic Designing and have been designing for quite a while now.<br/><br/> Apart from that, I am a Music Producer, Composer & Mixing Engineer open to work / collaborate on projects. You may check out my music on Youtube / Instagram / Spotify @ishtails. 💛
 </p>
       </motion.div>
 

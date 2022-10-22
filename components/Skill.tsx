@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from 'react'
 
 type Props = {
@@ -7,11 +8,11 @@ type Props = {
 
 const Skill = ({url, title}: Props) => {
   return (
-    <img 
+    <Image 
     title={title}
     className="group relative flex cursor-pointer w-24 lg:w-32 transition-transform hover:scale-125"
-    src={url}>
-    </img>
+    src={url} alt={title}>
+    </Image>
   )
 }
 

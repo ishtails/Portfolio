@@ -53,7 +53,7 @@ function ExperienceCard({}: Props) {
       }}
       viewport={{ once: true }}
       className="px-5 py-1 text-md font-light">
-      <span className="text-lg font-semibold text-[#2daaff]">I am</span> one of the technical heads at Uthaan - IIITM where my role is to design various posters, banners & templates that are required for Uthaan's social media handles. 
+      <span className="text-lg font-semibold text-[#2daaff]">I am</span> one of the technical heads at Uthaan - IIITM where my role is to design various posters, banners & templates that are required for Uthaan&apos;s social media handles. 
       </motion.div>
     </article>
   );
