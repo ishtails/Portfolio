@@ -54,7 +54,7 @@ function ExperienceCard({}: Props) {
       }}
       viewport={{ once: true }}
       className="px-5 py-1 text-md font-light">
-      <span className="text-lg font-semibold text-[#f79500]">I am</span> responsible for creating required designs for all GDSC-IIITM events. It always has been a fun process going back and forth with the team on how everything should look and feel.
+      <span className="text-lg font-semibold text-[#f79500]">I am</span> one of the Design Heads at GDSC-IIITM. It always has been a fun process going back and forth with the team on how each design should look and feel.
       </motion.div>
       <motion.div
       animate={{x:[-5,5,-5]}}
