@@ -8,11 +8,11 @@ type Props = {
 
 const Skill = ({url, title}: Props) => {
   return (
-    <Image 
+    <img 
     title={title}
     className="group relative flex cursor-pointer w-24 lg:w-32 transition-transform hover:scale-125"
     src={url} alt={title}>
-    </Image>
+    </img>
   )
 }
 

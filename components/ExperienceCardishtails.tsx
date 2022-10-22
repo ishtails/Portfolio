@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import React from "react";
 import {SiAdobepremierepro} from 'react-icons/si'
 import {MdPiano} from 'react-icons/md'
-import Image from "next/image";
 
 type Props = {};
 
@@ -34,7 +33,7 @@ function ExperienceCard({}: Props) {
       
       <div className="flex flex-row space-x-3 my-3">
         <SiAdobepremierepro size={"1.5em"} color={"#8282e6"}  className="hover:scale-125 transition-all"/>
-        <Image src={'/fl.svg'} alt="FL studio" className="w-6 hover:scale-125 transition-all"/>
+        <img src={'/fl.svg'} alt="FL studio" className="w-6 hover:scale-125 transition-all"/>
         <MdPiano size={"1.5em"} color={"#d0a628"} className="hover:scale-125 transition-all"/>
       </div>
 
