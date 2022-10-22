@@ -62,7 +62,7 @@ function Hero({}: Props) {
               duration:5,
           }}>
           
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold px-10 font-mono">
+          <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold px-10 font-mono">
             <span className="mr-1 text-gray-200">{text}</span>
             <Cursor cursorColor="#F7AB0A"/>
           </h1>
