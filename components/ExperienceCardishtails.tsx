@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import {SiAdobepremierepro} from 'react-icons/si'
 import {MdPiano} from 'react-icons/md'
+import {AiOutlineArrowRight} from 'react-icons/ai'
 
 type Props = {};
 
@@ -51,6 +52,13 @@ function ExperienceCard({}: Props) {
       }}
       viewport={{ once: true }} className="px-5 py-1 text-md font-light">
         <span className="text-lg font-semibold text-rose-400">I am</span> a musician under the title &quot;ishtails&quot;. I have been composing, producing, mixing and mastering tracks for past few years. Tap the label above to have a glance at my projects.
+      </motion.div>
+      
+      <motion.div
+      animate={{x:[-5,5,-5]}}
+      transition={{duration:1.2, repeat: Infinity, ease:"easeInOut"}}
+       className="flex flex-row justify-center sm:invisible items-center text-white p-2 mt-5 rounded-xl">
+        <AiOutlineArrowRight size={"18px"}/>
       </motion.div>
     </article>
   );

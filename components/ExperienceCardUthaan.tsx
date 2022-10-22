@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import {SiAdobephotoshop} from 'react-icons/si'
 import {SiAdobeillustrator} from 'react-icons/si'
 import {SiCanva} from 'react-icons/si'
@@ -54,6 +55,12 @@ function ExperienceCard({}: Props) {
       viewport={{ once: true }}
       className="px-5 py-1 text-md font-light">
       <span className="text-lg font-semibold text-[#2daaff]">I am</span> one of the technical heads at Uthaan - IIITM where my role is to design various posters, banners & templates that are required for Uthaan&apos;s social media handles. 
+      </motion.div>
+      <motion.div
+      animate={{x:[-5,5,-5]}}
+      transition={{duration:1.2, repeat: Infinity, ease:"easeInOut"}}
+       className="flex flex-row justify-center sm:invisible items-center text-white p-2 mt-5 rounded-xl">
+        <AiOutlineArrowRight size={"18px"}/>
       </motion.div>
     </article>
   );

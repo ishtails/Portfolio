@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 import {SiAdobephotoshop} from 'react-icons/si'
 import {SiAdobeillustrator} from 'react-icons/si'
 import {SiCanva} from 'react-icons/si'
@@ -54,6 +55,12 @@ function ExperienceCard({}: Props) {
       viewport={{ once: true }}
       className="px-5 py-1 text-md font-light">
       <span className="text-lg font-semibold text-[#f79500]">I am</span> responsible for creating required designs for all GDSC-IIITM events. It always has been a fun process going back and forth with the team on how everything should look and feel.
+      </motion.div>
+      <motion.div
+      animate={{x:[-5,5,-5]}}
+      transition={{duration:1.2, repeat: Infinity, ease:"easeInOut"}}
+       className="flex flex-row justify-center items-center invisible text-white p-2 mt-5 rounded-xl">
+        <AiOutlineArrowLeft size={"18px"}/>
       </motion.div>
     </article>
   );
