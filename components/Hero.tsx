@@ -95,11 +95,6 @@ function Hero({}: Props) {
               Skills
             </button>
           </Link>
-          <Link href="#projects">
-            <button className="heroButton">
-              Projects
-            </button>
-          </Link>
         </motion.div>
       </div>
     )
