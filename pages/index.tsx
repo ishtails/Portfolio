@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scroll-smooth scrollbar-hide">
       <Head>
         <title>Styles</title>
-        <link rel="icon" href="/ishtails Logo.png" />
+        <link rel="icon" href="/ishtails Logo.webp" />
       </Head>
 
       <Header />

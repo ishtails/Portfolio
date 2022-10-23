@@ -22,7 +22,7 @@ function ExperienceCard({}: Props) {
           duration: 1.2,
         }}
         viewport={{ once: true }}
-        src={"/ishtails Logo.png"}
+        src={"/ishtails Logo.webp"}
         alt="img"
         className="w-32 xl:w-[200px] object-cover object-center mb-4"
       />

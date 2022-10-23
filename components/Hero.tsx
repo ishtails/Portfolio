@@ -34,7 +34,7 @@ function Hero({}: Props) {
             duration:5,
         }}        
          className="relative w-32 h-32 rounded-full object-cover"
-         src={'/dp1.jpg'} alt="image" />
+         src={'/dp1.webp'} alt="image" />
 
          
         <motion.h2 

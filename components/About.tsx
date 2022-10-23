@@ -16,7 +16,7 @@ export default function About({}: Props) {
       whileInView={{x:0, opacity:1}}
       transition={{duration:1.2}}
       viewport={{once:true}}
-      className="relative top-24 sm:top-16 md:top-0 flex-shrink-0 rounded-full w-36 sm:w-44 object-cover md:rounded-lg md:w-72 xl:w-[400px]" src={'./dp2.jpg'}/>
+      className="relative top-24 sm:top-16 md:top-0 flex-shrink-0 rounded-full w-36 sm:w-44 object-cover md:rounded-lg md:w-72 xl:w-[400px]" src={'./dp2.webp'}/>
 
       <motion.div
       initial={{opacity:0, scale:0.9}}
