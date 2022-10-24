@@ -27,11 +27,11 @@ const Contact = (props: Props) => {
       </a>
       
       <div>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.instagram.com/ishtails/" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.youtube.com/ishtails" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://twitter.com/ishtails" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://github.com/ishtails" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.linkedin.com/in/kartikay-tiwari-92579921b/" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.instagram.com/ishtails/" title="Instagram" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.youtube.com/ishtails" title="Youtube" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://twitter.com/ishtails" title="Twitter" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://github.com/ishtails" title="Github" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.linkedin.com/in/kartikay-tiwari-92579921b/" fgColor="gray" title="LinkedIn" bgColor="transparent"/>
       </div>
 
     </motion.div>

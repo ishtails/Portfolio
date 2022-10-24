@@ -15,11 +15,11 @@ export default function Header({}: Props) {
         className="flex flex-row items-center">
 
             {/* Social Icons */}
-            <SocialIcon className="hover:scale-110 transition-all" target="_blank" url="https://www.instagram.com/ishtails/" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-110 transition-all" target="_blank" url="https://www.youtube.com/ishtails" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-110 transition-all" target="_blank" url="https://twitter.com/ishtails" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-110 transition-all" target="_blank" url="https://github.com/ishtails" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-110 transition-all" target="_blank" url="https://www.linkedin.com/in/kartikay-tiwari-92579921b/" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.instagram.com/ishtails/" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.youtube.com/ishtails" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://twitter.com/ishtails" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://github.com/ishtails" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.linkedin.com/in/kartikay-tiwari-92579921b/" fgColor="gray" bgColor="transparent"/>
 
         </motion.div>
 
@@ -30,8 +30,8 @@ export default function Header({}: Props) {
         className="cursor-pointer flex flex-row items-center">
           
           <Link href="#contact">
-            <div>
-              <SocialIcon className="hover:scale-110 transition-all" network="email" fgColor="gray" bgColor="transparent" />
+            <div className="flex flex-row items-center">
+              <SocialIcon className="hover:scale-125 transition-all" network="email" fgColor="gray" bgColor="transparent" />
               <p className="hidden md:inline-flex text-sm text-gray-500">GET IN TOUCH</p>
             </div>
           </Link>
