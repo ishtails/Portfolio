@@ -19,7 +19,7 @@ export default function Header({}: Props) {
             <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.youtube.com/ishtails" fgColor="gray" bgColor="transparent"/>
             <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://twitter.com/ishtails" fgColor="gray" bgColor="transparent"/>
             <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://github.com/ishtails" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.linkedin.com/in/kartikay-tiwari-92579921b/" fgColor="gray" bgColor="transparent"/>
+            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.linkedin.com/in/ishtails/" fgColor="gray" bgColor="transparent"/>
 
         </motion.div>
 
