@@ -20,18 +20,18 @@ const Skills = (props: Props) => {
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" title="TailwindCSS"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" title="React"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" title="JavaScript"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg" title="CSS 3"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original.svg" title="HTML 5"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original-wordmark.svg" title="MySQL"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/cplusplus/cplusplus-original.svg" title="C++"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/c/c-original.svg" title="C"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" title="CSS 3"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" title="HTML 5"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg" title="MySQL"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" title="C++"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" title="C"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" title="Adobe Photoshop"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" title="Adobe Illustrator"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" title="Adobe Premiere Pro"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/canva/canva-original.svg" title="Canva"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg" title="Canva"/>
           <Skill url="/fl.svg" title="FL Studio"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" title="Bash"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg" title="Git"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" title="Git"/>
           <Skill url="/github.svg" title="GitHub"/>
         </div>
 
