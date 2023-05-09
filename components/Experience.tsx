@@ -15,9 +15,9 @@ export default function Experience({}: Props) {
 <h3 className="absolute top-28 items-center uppercase tracking-[20px] text-gray-500 ml-7">Experience</h3>
 
         <div className="w-full flex overflow-x-scroll xl:overflow-x-auto space-x-5 py-10 snap-x snap-mandatory xl:justify-center xl:items-center xl:space-x-10 scrollbar-hide">
-          <a href="https://linktr.ee/ishtails" target="_blank"><ExperienceCardishtails /></a>
-          <a href="https://www.linkedin.com/in/ishtails/" target="_blank"><ExperienceCardUthaan /></a>
-          <a href="https://www.linkedin.com/in/ishtails/" target="_blank"><ExperienceCardGDSC /></a>
+          <a href="https://linktr.ee/ishtails" target={"blank"}><ExperienceCardishtails /></a>
+          <a href="https://www.linkedin.com/in/ishtails/" target={"blank"}><ExperienceCardUthaan /></a>
+          <a href="https://www.linkedin.com/in/ishtails/" target={"blank"}><ExperienceCardGDSC /></a>
         </div>
     </div>
 
