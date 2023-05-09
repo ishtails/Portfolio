@@ -20,9 +20,9 @@ const Skills = (props: Props) => {
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" title="TailwindCSS"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" title="React"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" title="JavaScript"/>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" title="CSS 3"/>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" title="HTML 5"/>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg" title="MySQL"/>
+          <Skill url="https://www.svgrepo.com/show/102011/css-3.svg" title="CSS 3"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" title="HTML 5"/>
+          <Skill url="https://www.svgrepo.com/show/331760/sql-database-generic.svg" title="SQL"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" title="C++"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" title="C"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" title="Adobe Photoshop"/>
@@ -31,7 +31,7 @@ const Skills = (props: Props) => {
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg" title="Canva"/>
           <Skill url="/fl.svg" title="FL Studio"/>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" title="Bash"/>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" title="Git"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" title="Git"/>
           <Skill url="/github.svg" title="GitHub"/>
         </div>
 
