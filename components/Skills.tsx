@@ -17,9 +17,9 @@ const Skills = (props: Props) => {
         
         <h3 className="absolute top-28 items-center uppercase tracking-[20px] text-gray-500 ml-7">Skills</h3>
         <div className="grid grid-cols-4 gap-7 xl:gap-14 lg:grid-cols-8">
-          <Skill url="https://camo.githubusercontent.com/37368c07ba573d5b2ecc8b6b724e847541a281c0fc135ee41fdd4aae61cda243/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f642f64352f5461696c77696e645f4353535f4c6f676f2e737667" title="TailwindCSS"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" title="React"/>
-          <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg" title="JavaScript"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" title="TailwindCSS"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" title="React"/>
+          <Skill url="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" title="JavaScript"/>
           <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg" title="CSS 3"/>
           <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original.svg" title="HTML 5"/>
           <Skill url="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original-wordmark.svg" title="MySQL"/>
