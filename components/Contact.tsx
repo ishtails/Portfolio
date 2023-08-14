@@ -1,10 +1,9 @@
 import React from 'react'
 import {SiGmail} from 'react-icons/si'
-import {RiWhatsappFill} from 'react-icons/ri'
-import Header from "./Header"
 import { SocialIcon } from "react-social-icons"
 import { motion } from "framer-motion"
 import { BsFillArrowUpCircleFill } from "react-icons/bs"
+import Icons from "./Icons"
 
 type Props = {}
 
@@ -26,13 +25,7 @@ const Contact = (props: Props) => {
         <p>Write to me at<br/>kartik100100@gmail.com</p>
       </a>
       
-      <div>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.instagram.com/ishtails/" title="Instagram" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.youtube.com/ishtails" title="Youtube" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://twitter.com/ishtails" title="Twitter" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://github.com/ishtails" title="Github" fgColor="gray" bgColor="transparent"/>
-            <SocialIcon className="hover:scale-125 transition-all" target="_blank" url="https://www.linkedin.com/in/ishtails/" fgColor="gray" title="LinkedIn" bgColor="transparent"/>
-      </div>
+      <Icons />
 
     </motion.div>
       
